@@ -1,0 +1,32 @@
+.cinema-list {
+    margin: 0;
+    padding: 0;
+}
+
+.cinema-list li {
+    list-style: none;
+}
+
+.item {
+    padding: 5px 0;
+}
+
+.item input {
+    font-size: 18px;
+    padding: 10px 20px 12px;
+    width: 30%;
+    color: #004d40;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid dimgray;
+    border-right: none;
+    outline: none;
+}
+
+.item button {
+    padding: 11px 20px;
+    border-left: none;
+    background: mediumturquoise;
+    font-size: 18px;
+    color: chocolate;
+    border-radius: 0 15px 15px 0;
+}
