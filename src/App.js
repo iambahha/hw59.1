@@ -37,11 +37,11 @@ class App extends Component {
     }
   };
 
-  changeMovieTitle = (event, id) => {
+  changeMovieTitle = (item, id) => {
     const movies = [...this.state.movies];
     const targetIndex = movies.findIndex(movie => movie.id === id);
     const targetMovie = {...movies[targetIndex]};
-    targetMovie.title = event.target.value;
+    targetMovie.title = item.target.value;
     movies[targetIndex] = targetMovie;
     this.setState({movies});
   };
