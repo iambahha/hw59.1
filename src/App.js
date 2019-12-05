@@ -23,6 +23,8 @@ class App extends Component {
     this.updateStorage();
   };
 
+  getID = () => (Math.floor(Date.now() / 1000) + Math.floor(Math.random() * 101));
+
   addToMovieList = event => {
 
     event.preventDefault();
@@ -50,8 +52,6 @@ class App extends Component {
     movies.splice(targetIndex, 1);
     this.setState({movies});
   };
-
-  getID = () => (Math.floor(Date.now() / 1000) + Math.floor(Math.random() * 101));
 
   takeFromStorage = () => {
     if (localStorage.getItem(App.moviesList) === null) {
