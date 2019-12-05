@@ -11,8 +11,9 @@
 
 .cinema-form input {
     padding: 5px 10px;
-    border-color: mediumaquamarine;
+    border: 2px solid mediumaquamarine;
     border-radius: 5px 0 0 5px;
+    outline: none;
 }
 
 .cinema-form .btn {
