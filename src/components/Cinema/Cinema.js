@@ -6,7 +6,7 @@ const Cinema = props => {
 	return (
 		<Fragment>
 			<h1>The cinemas to watch later:</h1>
-			<ul className="cinema-list">
+			<ul className="cinema-list" >
 				{props.list.map(movie=>(
 					<ChangeCinema
 						key={movie.id}
